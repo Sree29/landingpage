@@ -33,12 +33,39 @@
 			<div class="container">
 				<!-- logo of the page -->
 				<div class="logo">
-					<a href="index.html">
-						<img src="images/logo1.png" class="img-fluid" alt="LeadMore">
-					</a>
-				</div>
+    <a href="index.html">
+        <img src="images/logo1.png" alt="Cognetz">
+    </a>
+</div>
+
 			</div>
 		</header>
+	<style>
+		/* Header fix */
+.pageHeader {
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Logo size */
+.pageHeader .logo img {
+    height: 50px;   /* ✅ ideal size */
+    width: auto;
+    max-width: none;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+    .pageHeader .logo img {
+        height: 60px;
+    }
+}
+
+	</style>
+
+
 		<main>
 			<!-- bannerBlock of the page -->
 			<!-- <section id="form" class="bannerBlock bgCover overlay position-relative d-flex"
