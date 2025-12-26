@@ -71,74 +71,118 @@
 			<!-- <section id="form" class="bannerBlock bgCover overlay position-relative d-flex"
 				style="background-image: url(http://placehold.it/1920x800);"> -->
 			<section id="form" class="bannerBlock bgCover overlay position-relative d-flex"
-				style="background-image: url('images/img3.jpg');">
+    style="background-image: url('images/img3.jpg');">
 
-				<div class="alignCenter w-100 d-flex align-items-center">
-					<div class="container pt-25 pt-lg-30 pb-10 pb-lg-14">
-						<div class="row">
+    <div class="alignCenter w-100 d-flex align-items-center">
+        <div class="container pt-25 pt-lg-30 pb-10 pb-lg-14">
+            <div class="row">
 
-							<div class="col-12 col-md-10 col-lg-5 pr-lg-5">
-								<!-- contactForm of the page -->
-								<div class="contactForm position-relative bg-white p-8 rounded">
-									<form action="#" id="callActionForm" data-toggle="validator">
-										<div class="row justify-content-center">
-											<div class="col-12 text-center mb-6">
-												<h2 class="h4">Get Your Free Quote</h2>
-												<p>Supporting Call to Action Goes Here</p>
-											</div>
-											<div class="col-12">
-												<div class="form-group">
-													<input id="name" type="text" class="form-control"
-														placeholder="Your Name *" required
-														data-error="NEW ERROR MESSAGE">
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="form-group">
-													<input id="email" type="email" class="form-control"
-														placeholder="Your Email *" required
-														data-error="NEW ERROR MESSAGE">
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="form-group">
-													<input id="phone" type="tel" class="form-control"
-														placeholder="Phone number*" required
-														data-error="NEW ERROR MESSAGE">
-												</div>
-											</div>
-											<div class="col-12">
-												<div class="form-group mt-4">
-													<button type="submit" class="btn font-weight-bold text-uppercase"
-														id="form-submit"
-														style="background-color:#2596be; border-color:#2596be; color:#fff;">
-														Call to Action
-													</button>
+                <!-- Form Column -->
+                <div class="col-12 col-md-10 col-lg-5 pr-lg-5">
+                    <div class="contactForm position-relative bg-white p-8 rounded">
+                        <form action="#" id="callActionForm" data-toggle="validator">
+                            <div class="row justify-content-center">
 
-												</div>
-											</div>
-											<div class="col-12">
-												<div id="msgSubmit" class="form-message"></div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div class="col-12 col-md-10 col-lg-7 pr-lg-5">
-								<!-- caption of the page -->
-								<div class="caption position-relative text-white py-lg-20">
-									<h1 class="text-white mb-4 mr-xl-n6">
-										Discover Innovative <br>Software Solutions <br>Tailored for Your Business
-									</h1>
-									<p>We help you transform ideas into scalable digital products, streamline
-										operations, and accelerate growth through cutting-edge technology.</p>
-								</div>
+                                <!-- Header -->
+                                <div class="col-12 text-center mb-6">
+                                    <h2 class="h4">Get Your Free Quote</h2>
+                                    <p>Share your project details and we’ll get back to you promptly</p>
+                                </div>
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                                <!-- Full Name -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input id="name" type="text" class="form-control"
+                                            placeholder="Full Name *" required
+                                            data-error="Please enter your name">
+                                    </div>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input id="email" type="email" class="form-control"
+                                            placeholder="Email *" required
+                                            data-error="Please enter a valid email">
+                                    </div>
+                                </div>
+
+                                <!-- Phone -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input id="phone" type="tel" class="form-control"
+                                            placeholder="Phone Number" data-error="Please enter a valid phone">
+                                    </div>
+                                </div>
+
+                               
+                              
+
+                                <!-- Project Type -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <select id="project_type" class="form-control" required
+                                            data-error="Please select a project type">
+                                            <option value="">Select Service *</option>
+                                            <option value="web">Web Development</option>
+                                            <option value="mobile">Digital Marketing</option>
+                                            <option value="enterprise">Video Production</option>
+                                            <option value="uiux">Search Engine Optimizatiopn</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                               
+                              
+
+                                <!-- Additional Notes -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea id="message" class="form-control" rows="4"
+                                            placeholder="Briefly describe your project"></textarea>
+                                    </div>
+                                </div>
+
+                                
+                                <!-- Submit Button -->
+                                <div class="col-12">
+                                    <div class="form-group mt-4">
+                                        <button type="submit" class="btn font-weight-bold text-uppercase"
+                                            id="form-submit"
+                                            style="background-color:#2596be; border-color:#2596be; color:#fff;">
+                                            Get Free Quote
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Form Message -->
+                                <div class="col-12">
+                                    <div id="msgSubmit" class="form-message"></div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Caption Column -->
+               <div class="col-12 col-md-10 col-lg-7 pr-lg-5">
+    <div class="caption position-relative text-white py-lg-20" style="margin-top: 60px;">
+        <h1 class="text-white mb-4 mr-xl-n6">
+            Discover Innovative <br>Software Solutions <br>Tailored for Your Business
+        </h1>
+        <p>We help you transform ideas into scalable digital products, streamline
+            operations, and accelerate growth through cutting-edge technology.</p>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
 			<!-- busniessInnovatBlock of the page -->
 			<!-- <aside class="busniessInnovatBlock text-center pt-12 pb-7 pt-sm-15 pb-sm-11 pt-lg-19 pb-lg-15 bgLightGray">
 				<div class="container"> -->
