@@ -62,10 +62,10 @@
 			@media (max-width: 768px) {
 				.pageHeader .logo img {
 					height: 30px;
-						margin-top: 20px !important;
-						
+					margin-top: 20px !important;
+
 				}
-			
+
 			}
 		</style>
 
@@ -77,12 +77,45 @@
 			<section id="form" class="bannerBlock bgCover overlay position-relative d-flex"
 				style="background-image: url('images/img3.jpg');">
 
-				<div class="alignCenter w-100 d-flex align-items-center">
+				<!-- <div class="alignCenter w-100 d-flex align-items-center"> -->
+				<div class="alignCenter w-100 d-flex align-items-start">
+
 					<div class="container pt-25 pt-lg-30 pb-10 pb-lg-14">
 						<div class="row">
 
+
+							<!-- Caption Column -->
+							<!-- <div class="col-12 col-md-10 col-lg-7 pr-lg-5"> -->
+							<div class="col-12 col-md-10 col-lg-7">
+								<div class="caption hero-caption text-white position-relative">
+									<h1 class="text-white mb-4 mr-xl-n6">
+										Discover Innovative <br>Software Solutions <br>Tailored for Your Business
+									</h1>
+									<p>
+										We help you transform ideas into scalable digital products, streamline
+										operations, and accelerate growth through cutting-edge technology.
+									</p>
+								</div>
+							</div>
+
+							<style>
+								.hero-caption {
+									padding-top: 70px !important;
+								}
+
+								@media (max-width: 768px) {
+									.hero-caption {
+										padding-top: 10px !important;
+										/* reduced on mobile */
+									}
+								}
+							</style>
+
+
+
 							<!-- Form Column -->
-							<div class="col-12 col-md-10 col-lg-5 pr-lg-5">
+							<!-- <div class="col-12 col-md-10 col-lg-5 pr-lg-5"> -->
+							<div class="col-12 col-md-10 col-lg-5">
 								<div class="contactForm position-relative bg-white p-8 rounded">
 									<form action="#" id="callActionForm" data-toggle="validator">
 										<div class="row justify-content-center">
@@ -130,10 +163,13 @@
 														data-error="Please select a project type">
 														<option value="">Select Service *</option>
 														<option value="web">Web Development</option>
-														<option value="mobile">Digital Marketing</option>
-														<option value="enterprise">Video Production</option>
-														<option value="uiux">Search Engine Optimizatiopn</option>
-														<option value="other">Other</option>
+														<option value="mobile_app">Mobile App Development</option>
+														<option value="software">Software Development</option>
+														<option value="digital_marketing">Digital Marketing</option>
+														<option value="video">Video Production</option>
+														<option value="seo">Search Engine Optimization</option>
+
+
 													</select>
 												</div>
 											</div>
@@ -170,18 +206,6 @@
 									</form>
 								</div>
 							</div>
-
-							<!-- Caption Column -->
-							<div class="col-12 col-md-10 col-lg-7 pr-lg-5">
-								<div class="caption position-relative text-white py-lg-20" style="margin-top: 50px;">
-									<h1 class="text-white mb-4 mr-xl-n6">
-										Discover Innovative <br>Software Solutions <br>Tailored for Your Business
-									</h1>
-									<p>We help you transform ideas into scalable digital products, streamline
-										operations, and accelerate growth through cutting-edge technology.</p>
-								</div>
-							</div>
-
 
 						</div>
 					</div>
